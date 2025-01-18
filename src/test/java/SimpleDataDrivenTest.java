@@ -29,7 +29,9 @@ public class SimpleDataDrivenTest {
                 {"180", "50", "15.4", "Underweight"},
                 {"180", "90", "27.8", "Overweight"},
                 {"180", "120", "37.0", "Obesity"},
-                {"170", "67", "23.2", "Normal"}
+                {"170", "67", "23.2", "Normal"},
+                {"170", "51", "17.6", "Underweight"},
+                {"70", "8.5", "17.3", "Underweight"}
         };
 
         return testData;
