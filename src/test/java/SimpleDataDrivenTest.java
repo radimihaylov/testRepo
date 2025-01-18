@@ -23,12 +23,13 @@ public class SimpleDataDrivenTest {
 
     @DataProvider(name = "blaDataProvider")
     public Object[][] bmiDataProvider() {
-
+ 
         String [][] testData = {
                 {"180", "80", "24.7", "Normal"},
                 {"180", "50", "15.4", "Underweight"},
                 {"180", "90", "27.8", "Overweight"},
-                {"180", "120", "37.0", "Obesity"}
+                {"180", "120", "37.0", "Obesity"},
+                {"170", "67", "23.2", "Normal"}
         };
 
         return testData;
